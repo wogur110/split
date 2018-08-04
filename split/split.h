@@ -6,11 +6,9 @@
 
 using namespace std;
 
-char *str_tok(char *str, const char delimeter);
-{
-}
+char *str_tok(char *str, const char delimiter);
 
-vector<string> split(string *str, const char *delimeter);
+vector<string> split(string *str, const char delimiter);
 
 /*
 class string_tok :public string
@@ -20,6 +18,6 @@ public:
 	{
 		this->string = str->string;
 	}
-	vector<string> split(const char *delimeter);
+	vector<string> split(const char *delimiter);
 };
 */
